@@ -1,0 +1,23 @@
+# -*- coding:utf-8 -*-
+__author__ = 'Kyle Yuan'
+
+import serial
+
+def loop():
+    while True:
+        # i = ser.read()
+        i = ser.readline()
+        # read a '\n' terminated line
+        print i
+
+if __name__ == '__main__':
+    ser = serial.Serial('/dev/ttyAMA0', 9600)
+    try:
+        loop()
+    except KeyboardInterrupt:
+        ser.close()
+<<<<<<< HEAD
+print '2222223333'
+=======
+print 'xxxxxdfsfsdfsdfs'
+>>>>>>> 3dd8062989606ba17643623b2560533ecc45922a
