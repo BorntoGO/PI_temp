@@ -16,4 +16,4 @@ if __name__ == '__main__':
         loop()
     except KeyboardInterrupt:
         ser.close()
-print "只是一个测试"
+print "just a test"
