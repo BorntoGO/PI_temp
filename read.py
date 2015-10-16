@@ -16,3 +16,4 @@ if __name__ == '__main__':
         loop()
     except KeyboardInterrupt:
         ser.close()
+print 'xxxxxdfsfsdfsdfs'
