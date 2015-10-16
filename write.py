@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*-
 __author__ = 'Kyle Yuan'
 
+print 'test'
+
 import serial
 
 def loop():
