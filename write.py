@@ -1,8 +1,6 @@
 # -*- coding:utf-8 -*-
 __author__ = 'Kyle Yuan'
 
-print 'test'
-
 import serial
 
 def loop():
@@ -16,4 +14,4 @@ if __name__ == '__main__':
         loop()
     except KeyboardInterrupt:
         ser.close()
-print "just a test"
+print "测试"
