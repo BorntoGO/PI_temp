@@ -2,6 +2,7 @@
 __author__ = 'Kyle Yuan'
 
 print 'test'
+print 'temp'
 
 import serial
 
@@ -16,4 +17,4 @@ if __name__ == '__main__':
         loop()
     except KeyboardInterrupt:
         ser.close()
-print "just a test"
+print "测x试"
