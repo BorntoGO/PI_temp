@@ -56,4 +56,4 @@ while True:
     upload_cup_temp()
     time.sleep(1800)
 print 'just a test'
-print '测试'
+print '测试一下'
