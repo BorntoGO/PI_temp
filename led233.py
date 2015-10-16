@@ -39,3 +39,4 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         ser.close()
         GPIO.cleanup(lry)
+print '实得分数电风扇'
